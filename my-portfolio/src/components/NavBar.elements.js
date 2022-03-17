@@ -50,6 +50,12 @@ import styled from "styled-components";
      font-size:1.2rem;
      font-family:'Smooch Sans', sans-serif;
      font-weight:400;
+
+     &:hover{
+         background-color: #343257;
+         border-bottom: 0.3rem solid #ebc08b;
+         transition: 0.4s ease-in;
+     }
      `
 
      export const MenuItemLink= styled.a`

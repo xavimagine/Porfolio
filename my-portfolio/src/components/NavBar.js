@@ -14,17 +14,17 @@ const Navbar = () => {
             <Menu>
               <MenuItem>
                 <MenuItemLink>
-                  Home
+                  HOME  
                 </MenuItemLink>
               </MenuItem>
               <MenuItem>
                 <MenuItemLink>
-                  About us
+                  ABOUT US
                 </MenuItemLink>
               </MenuItem>
               <MenuItem>
                 <MenuItemLink>
-                  Repositories
+                  REPOSITORIES
                 </MenuItemLink>
               </MenuItem>
               <MenuItem>
@@ -34,7 +34,7 @@ const Navbar = () => {
               </MenuItem>
               <MenuItem>
                 <MenuItemLink>
-                  Contact
+                  CONTACT
                 </MenuItemLink>
               </MenuItem>
               
