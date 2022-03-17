@@ -8,13 +8,12 @@ const Navbar = () => {
       <NavbarContaint>
         <NavbarWrapper>
           <LogTitle>
-            <img  src={urls} alt=""></img>
+            <img  src={urls} alt="" class="logo"></img>
             <h1>Javier Díaz Rayo </h1> 
           </LogTitle>
         </NavbarWrapper>
     </NavbarContaint>
-
-   
+ 
    </>
   )
 }
