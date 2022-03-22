@@ -51,21 +51,32 @@ export const NavbarContaint = styled.div`
      display:flex;
      justify-content: space-between;
      list-style:none;
+
       @media screen and (max-width: 960px){
+        background-color: #23394d;
         position: absolute;
         top: 70px;
         left: 0; //Importante
         width: 100%;
         height; 90vh;
         justify-content: center;
-        flex-direction: colum;
+        flex-direction: column;
         align-items: center;
         transition: 0.5s all ease;
       }
      `
 
      export const MenuItem = styled.li`
-     height:100%;`
+     height:100%;
+     
+      @media  screen and (mad-width: 968px){
+          width:100%;
+          height: 70px;
+          display: flex;
+          justify-content: ce;
+          align-items: center;
+      }
+     `
 
      export const MenuItemLink= styled.a`
      display: flex;
@@ -85,7 +96,14 @@ export const NavbarContaint = styled.div`
             color:#fff;
             background-color: #e0792a;
             transition: 0.5s all ease;
-        }` 
+
+
+    @media  screen and (mad-width: 968px){
+        widht: 100%;
+    }
+    }`
+    
+    
     export const MobileIcon = styled.div`
         display: grid;
         @media screen and (max-width: 960px){
