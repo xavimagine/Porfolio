@@ -1,6 +1,7 @@
 import React from 'react'
-import { LogTitle, NavbarContaint, NavbarWrapper, Menu, MenuItem, MenuItemLink } from './NavBar.elements'
-import { MdOutlineCode } from "react-icons/md";
+import { LogTitle, NavbarContaint, NavbarWrapper, Menu, MenuItem, MenuItemLink, MobileIcon } from './NavBar.elements'
+import { MdOutlineCode  } from "react-icons/md";
+import { BsMenuButtonWideFill } from "react-icons/bs";
 import { IconContext } from 'react-icons/lib';
 
 const Navbar = () => {
@@ -8,12 +9,17 @@ const Navbar = () => {
    <>
       <NavbarContaint>
         <NavbarWrapper>
-          <IconContext.Provider value={{ style:{ fontSize: "2em"}}}>
-        
+          <IconContext.Provider value={{ style:{ fontSize: "0.9em"}}}>
             <LogTitle>
-            <MdOutlineCode size="22px" />
+            <MdOutlineCode/>
                 Javier Díaz Rayo
             </LogTitle>
+
+              <MobileIcon>
+                <BsMenuButtonWideFill/>
+              </MobileIcon>
+
+
             <Menu>
               <MenuItem>
                 <MenuItemLink>
