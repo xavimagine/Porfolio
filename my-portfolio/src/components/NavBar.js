@@ -1,10 +1,12 @@
-import React from 'react'
+import React, {useState} from 'react';
 import { LogTitle, NavbarContaint, NavbarWrapper, Menu, MenuItem, MenuItemLink, MobileIcon } from './NavBar.elements'
 import { MdOutlineCode  } from "react-icons/md";
 import { BsMenuButtonWideFill } from "react-icons/bs";
 import { IconContext } from 'react-icons/lib';
 
 const Navbar = () => {
+    const [showMobileMenu, setShowMobileMenu] = useState(false);    
+
   return ( 
    <>
       <NavbarContaint>
@@ -15,12 +17,12 @@ const Navbar = () => {
                 Javier Díaz Rayo
             </LogTitle>
 
-              <MobileIcon>
+              <MobileIcon  onClick={ () => setShowMobileMenu (!showMobileMenu)}>
                 <BsMenuButtonWideFill/>
               </MobileIcon>
 
 
-            <Menu>
+            <Menu  open= { showMobileMenu}>
               <MenuItem>
                 <MenuItemLink>
                   HOME  
