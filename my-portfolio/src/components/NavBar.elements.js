@@ -55,7 +55,7 @@ export const LogTitle = styled.div `
         background-color: #23394d;
         position: absolute;
         top: 54px;
-        left: ${({open}) => (open ? "0": "-106%")}; //Importante
+        left: ${({open}) => (open ? "0": "-100%")}; //Importante
         width: 100%;
         height; 90vh;
         justify-content: center;
@@ -89,13 +89,44 @@ export const LogTitle = styled.div `
        font-weight: 300;
        cursor: pointer;
        transition: 0.5s all ease;
+
        &:hover {
          color: #fff;
          background-color: #e0792a;
          transition: 0.5s all ease;
+        
+         div{
+           svg{
+             fill: #23394d;
+           }
+         }
+
+
+        div{
+          width: 100%;
+          height: 100%;
+          display:flex;
+          justify-content: center;
+          align-items:center;
+        }
+
+        svg{
+          display:none;
+          margin-rigth: 0.5rem;
+          fill: #e0792a;
+        }
 
          @media screen and (mad-width: 968px) {
            widht: 100%;
+
+           div{
+             width: 30%;
+             justify-content: left;
+
+             svg{
+              display:flex;
+            }
+           }
          }
        }
      `;

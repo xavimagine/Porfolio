@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { LogTitle, NavbarContaint, NavbarWrapper, Menu, MenuItem, MenuItemLink, MobileIcon } from './NavBar.elements'
 import { MdOutlineCode  } from "react-icons/md";
+import { GoHome, GoPerson, GoFileDirectory, GoBriefcase , GoMention,GoX } from "react-icons/go";
 import { BsMenuButtonWideFill } from "react-icons/bs";
 import { IconContext } from 'react-icons/lib';
 
@@ -18,34 +19,55 @@ const Navbar = () => {
             </LogTitle>
 
               <MobileIcon  onClick={ () => setShowMobileMenu (!showMobileMenu)}>
-                <BsMenuButtonWideFill/>
+                {
+                  showMobileMenu ?  <GoX/> :<BsMenuButtonWideFill/>
+                }
+                
               </MobileIcon>
 
 
             <Menu  open= { showMobileMenu}>
               <MenuItem>
-                <MenuItemLink>
-                  HOME  
+                <MenuItemLink onClick={ () => setShowMobileMenu (!showMobileMenu)} >
+                  <div>
+                    <GoHome/>
+                    HOME
+                  </div>
+                    
                   </MenuItemLink>
                 </MenuItem>
               <MenuItem>
-                  <MenuItemLink>
-                  ABOUT ME
-                  </MenuItemLink>
-              </MenuItem>
-              <MenuItem>
-                <MenuItemLink>
-                  REPOSITORIES
+                <MenuItemLink onClick={ () => setShowMobileMenu (!showMobileMenu)}>
+                  <div>
+                  <GoPerson/>
+                  ABOUT ME  
+                  </div>
                 </MenuItemLink>
               </MenuItem>
               <MenuItem>
-                <MenuItemLink>
-                  CV
+                <MenuItemLink onClick={ () => setShowMobileMenu (!showMobileMenu)}>
+                  <div>
+                  <GoFileDirectory/>
+                    REPOSITORIES
+                  </div>
+                  
                 </MenuItemLink>
               </MenuItem>
               <MenuItem>
-                <MenuItemLink>
-                  CONTACT
+                <MenuItemLink onClick={ () => setShowMobileMenu (!showMobileMenu)}>
+                  <div>
+                    <GoBriefcase/>
+                    CV
+                  </div>
+                </MenuItemLink>
+              </MenuItem>
+              <MenuItem>
+                <MenuItemLink onClick={ () => setShowMobileMenu (!showMobileMenu)}>
+                  <div>
+                    <GoMention/>
+                    CONTACT
+                  </div>
+                  
                 </MenuItemLink>
               </MenuItem>
             </Menu>
