@@ -5,6 +5,7 @@ import { GoHome, GoPerson, GoFileDirectory, GoBriefcase , GoMention,GoX } from "
 import { BsMenuButtonWideFill } from "react-icons/bs";
 import { IconContext } from 'react-icons/lib';
 
+
 const Navbar = () => {
     const [showMobileMenu, setShowMobileMenu] = useState(false);    
 
@@ -15,14 +16,11 @@ const Navbar = () => {
           <IconContext.Provider value={{ style:{ fontSize: "0.9em"}}}>
             <LogTitle>
             <MdOutlineCode/>
-                Javier Díaz Rayo
+             <p> Javier Díaz Rayo</p> 
             </LogTitle>
 
               <MobileIcon  onClick={ () => setShowMobileMenu (!showMobileMenu)}>
-                {
-                  showMobileMenu ?  <GoX/> :<BsMenuButtonWideFill/>
-                }
-                
+                {showMobileMenu ?  <GoX/> : <BsMenuButtonWideFill/>}
               </MobileIcon>
 
 
@@ -77,7 +75,7 @@ const Navbar = () => {
     </NavbarContaint>
  
    </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
