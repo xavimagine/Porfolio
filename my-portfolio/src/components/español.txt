@@ -1,0 +1,9 @@
+           
+          /**hola , soy Javier Díaz Rayo desarrollador multiplataforma junior  y diseñador grafico español tengo 30 años.
+
+Soy una persona con muchas ganas de aprender y formarme.Tengo nociones de Java, html 5, mysql, actualemte me estoy autoformando en React,JavaScript.
+
+Anteriormente me forme en diseño gráfico y diseño editorial, tengo nociones de Photoshop, Illustrator e Indesign. Me gusta el diseño como la maquetación.
+
+Trabajo muy bien en equipo, soy muy comunicativo, social,
+creativo, cooperativo y proactivo. **/

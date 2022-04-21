@@ -1,6 +1,6 @@
 import android from '../galery/android.png'
 import code from '../galery/code.png'
-import html  from '../galery/csshtml.png'
+import html  from '../galery/csshtmls.png'
 import  eclipse from '../galery/eclipse.png'
 import illustrator from '../galery/illustrator.png'
 import indesign from '../galery/ind.png'
@@ -12,6 +12,8 @@ import postgresql from '../galery/postgresql.png'
 import photoshop from '../galery/ps.png'
 import reat from '../galery/react.png'
 import wordpress from '../galery/wordpress.png'
+
+import me from'../galery/me.png'
 
 const urls = {
     'android': android,
@@ -27,7 +29,8 @@ const urls = {
     'postgresql':postgresql,
     'photoshop':photoshop,
     'reat':reat,
-    'wordpress':wordpress
+    'wordpress':wordpress,
+    'me':me
 };
 
 
