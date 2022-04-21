@@ -6,8 +6,10 @@ import Info from './components/about/Info';
 function App() {
   return (
   <>
-  <Navbar/>
-  <Info/>
+    <Navbar/>
+    <body>
+      <Info/>
+    </body>
   </> 
   );
 }
