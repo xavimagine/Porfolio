@@ -11,6 +11,22 @@ export const Containt = styled.div`
         display: block;
        
     }
+
+    table{
+        background-color: white;
+        width: 1086px;
+        height: 904px;
+        border-radius: 12px;
+        margin-top: -10rem;
+        margin-left: 180px;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        font-family: 'Smooch Sans', sans-serif;
+        font-size: 20px;
+          
+    
+        
+    }
  
 `;
 export const Perfil = styled.div`
@@ -32,9 +48,4 @@ export const Perfil = styled.div`
         font-family: 'Smooch Sans', sans-serif;
         font-size: 18px;
     }
-`;
-export const Material = styled.div`
-    /*border-radius: 12px;
-    margin-top: -14rem;
-    padding-bottom: 1rem;*/
 `;
