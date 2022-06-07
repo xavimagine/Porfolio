@@ -1,12 +1,13 @@
 
 import React from 'react';
 import urls  from '../../routesImg/imgRoutes';
-import { Containt,Perfil } from './Img.elements'
+import { Containt,Perfil,Impc,Tblenguajes } from './Img.elements'
 import { MdOutlineDesignServices  } from "react-icons/md";
 import { FiDatabase  } from "react-icons/fi";
 import {HiOutlineDesktopComputer} from "react-icons/hi";
 import { AiOutlineSwap  } from "react-icons/ai";
 import { CgWebsite  } from "react-icons/cg";
+import { GoGist } from "react-icons/go";
 
 
 const Info = () =>{
@@ -14,8 +15,8 @@ const Info = () =>{
     return(
         <>
         <Containt>
-
-                    <img src={urls.pcs} alt='' id='pc'/>
+            <Impc> <img src={urls.pcs} alt='' id='pc'/></Impc>
+                   
             <Perfil>
                 <div>
                     
@@ -35,46 +36,79 @@ const Info = () =>{
                     
                 </div>
             </Perfil>
-        
+            <Tblenguajes>
                 <table >
                     <tbody>
                         <tr>
-                            <td>
-                                <div>  <MdOutlineDesignServices/></div>
-                                <p>Graphic design</p>  
-                                <p>Photoshop</p> 
-                                <p>Illustrator</p>
-                                <p>Indesing</p>
-
-
-                                <p> Adobe</p> 
-                            </td>
-                            <td>
-                            <div><CgWebsite/></div> 
-                                <p>Front-end</p>  
-                                <p>html 5</p> 
-                                <p>JavaScript (Learning)</p>
-                                <p>React (Learning)</p>
-
-                                <p>Android Studio</p>
-                                <p>Visual Studio code</p>
-                                <p>Wordpress</p>
-                            </td>
-                            <td>
-                            <div><HiOutlineDesktopComputer/><AiOutlineSwap/><FiDatabase/></div> 
-                                <p>Back-end</p> 
-                                <p>mysql</p> 
-                                <p>phpmyadmin</p> 
-
-                                <p>Postgresql</p> 
-                                <p>Visual Studio code</p> 
-                                <p>Eclipse</p> 
-                            </td>
+                            <td> <MdOutlineDesignServices/> </td>
+                            <td> <CgWebsite/> </td>
+                            <td> <GoGist/> </td>
+                            <td><HiOutlineDesktopComputer/><AiOutlineSwap/><FiDatabase/> </td>
                         </tr>
+                        <tr>
+                            <td> <h2>Graphic design</h2>   </td>
+                            <td> <h2>Front-end</h2>   </td>
+                            <td> <h2>Back-end</h2>  </td>
+                            <td> <h2>Base de datos</h2>  </td>
+                        </tr>
+                        <tr  id="lenguajes">
+                            <td/>
+                            <td> Lenguajes: </td>
+                            <td> Lenguajes: </td>
+                            <td> Lenguajes: </td>
+                        </tr>
+
+                        <tr>
+                            <td/>
+                            <td> html 5 </td>
+                            <td>Java</td>
+                            <td> mysql </td>
+                        </tr>
+                        <tr>
+                           <td/>
+                            <td> Css </td>
+                                                     
+                        </tr>
+                        <tr>
+                            <td/>
+                            <td> JavaScript (Learning)   </td>
+                        
+                        </tr>
+                        <tr>
+                            <td/>
+                            <td> React (Learning)   </td>
+                            <td/>
+                           
+                        </tr>
+                        <tr>
+                            <td>Programas de diseño:</td>
+                            <td> Frameworks:  </td>
+                            <td> Frameworks:  </td>
+                            <td> Frameworks:  </td>
+                           
+                        </tr>
+                        <tr>
+                            <td>Photoshop</td>
+                            <td> Android Studio   </td>
+                            <td> Visual Studio code  </td>
+                            <td> Postgresql  </td>
+                        </tr>
+                        <tr>
+                            <td> Illustrator   </td>
+                            <td>Visual Studio code  </td>
+                            <td>Eclipse </td>
+                            <td> phpmyadmin </td>
+                        </tr>
+                        <tr>
+                            <td> Indesing   </td>
+                            <td>Wordpress  </td>
+                           
+                        </tr>
+                        
                     </tbody>  
                     
                 </table>
-
+            </Tblenguajes>
         </Containt>
             
         </>
