@@ -87,9 +87,9 @@ const Info = () =>{
                         </tr>
                         <tr>
                             <td>Programas de diseño:</td>
-                            <td> Frameworks:  </td>
-                            <td> Frameworks:  </td>
-                            <td> Frameworks:  </td>
+                            <td> IDE:  </td>
+                            <td> IDE:  </td>
+                            <td> IDE:  </td>
                            
                         </tr>
                         <tr>

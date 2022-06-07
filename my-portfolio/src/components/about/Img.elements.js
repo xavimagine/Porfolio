@@ -113,8 +113,10 @@ export const Impc = styled.div`
 export const Tblenguajes = styled.div`
 @media screen and (max-width: 960px) {
         table{
-        width: 960 px;
-        height: 500px;
+        width: 80%;
+        margin-left: 75px;
+        
+        
         } 
     }
 @media screen and (max-width: 880px) {
