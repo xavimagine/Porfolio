@@ -1,7 +1,7 @@
 
 import React from 'react';
 import urls  from '../../routesImg/imgRoutes';
-import { Containt,Perfil,Impc,Tblenguajes } from './Img.elements'
+import { Containt,Perfil,Impc,Tblenguajes,Bienvenida } from './Img.elements'
 import { MdOutlineDesignServices  } from "react-icons/md";
 import { FiDatabase  } from "react-icons/fi";
 import {HiOutlineDesktopComputer} from "react-icons/hi";
@@ -15,6 +15,11 @@ const Info = () =>{
     return(
         <>
         <Containt>
+            <Bienvenida>
+            <img src={urls.avatar} alt='' id='avat'></img>
+            Bienvenidos Soy un programador multiplatforma  ydiseñador gráfico.
+            </Bienvenida>
+           
             <Impc> <img src={urls.pcs} alt='' id='pc'/></Impc>
                    
             <Perfil>

@@ -11,6 +11,7 @@ export const Containt = styled.div`
         display: block;
        
     }
+   
 
     table{
         background-color: white;
@@ -132,3 +133,12 @@ export const Tblenguajes = styled.div`
             }
     }
 `;
+
+export const Bienvenida = styled.div`
+ #avat{
+        width: 100px;
+        height: auto;
+        margin: 10px auto -1px;
+        display: block;
+       
+    }`;
