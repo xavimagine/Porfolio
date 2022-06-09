@@ -15,11 +15,11 @@ export const Containt = styled.div`
 
     table{
         background-color: white;
-        width: 1086px;
+        width: 900px;
         height: 500px;
         border-radius: 12px;
         margin-top: -10rem;
-        margin-left: 180px;
+        margin-left: 16%;
         padding-top: 2rem;
         padding-bottom: 22rem;
         font-family: 'Smooch Sans', sans-serif;
@@ -48,35 +48,57 @@ export const Perfil = styled.div`
         margin: 20px auto;
         width: 500px;
         text-align: justify;
-        
         font-family: 'Smooch Sans', sans-serif;
         font-size: 18px;
     }
 
+  
+
     @media screen and (max-width: 960px) {
-          width: 100%;
+         
           div {
-            width: 30%;
-            justify-content: right;
+            width: 80%;
+           padding-left: 10%;
           }
           #Atext{
-          font-size: 15px;
+          font-size: 18px;
     }
           
         }
         @media screen and (max-width: 880px) {
           div {
             width: 40%;
-            justify-content: left;
-         
+            padding-left: 16%;
           }
+          #Atext{
+          font-size: 18px;
+          
+        }
+        @media screen and (max-width: 700px) {
+          div {
+            width: 60%;
+            padding-left: 9%;
+            
+          }
+        }
+        @media screen and (max-width: 621px) {
+          div {
+            width: 40%;
+            padding-left: 4%;
+            
+          }
+        }
+         
         }
         @media screen and (max-width: 500px) {
           div {
-            width: 60%;
-            justify-content: left;
-            
+            width:521px;
+           
           }
+          #Atext{
+          font-size: 13px;
+          
+        }
         }
         @media screen and (max-width: 260px) {
           div {
@@ -111,10 +133,17 @@ export const Impc = styled.div`
 `;
 
 export const Tblenguajes = styled.div`
+@media screen and (max-width: 1160px) {
+        table{
+        width: 80%;
+        margin-left: 11%;
+        
+        } 
+    }
 @media screen and (max-width: 960px) {
         table{
         width: 80%;
-        margin-left: 75px;
+        margin-left: 11%;
         
         
         } 
@@ -126,12 +155,14 @@ export const Tblenguajes = styled.div`
     }
 @media screen and (max-width: 500px) {
           table{
-             width:60%;
+            width:60%;
+             margin-left: 18%;
             }
     }
 @media screen and (max-width: 260px) {
           table{
             width:50%;
+           
             }
     }
 `;

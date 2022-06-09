@@ -67,7 +67,7 @@ const Info = () =>{
                             <td/>
                             <td> html 5 </td>
                             <td>Java</td>
-                            <td> mysql </td>
+                            <td> Sql </td>
                         </tr>
                         <tr>
                            <td/>
